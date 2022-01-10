@@ -1,0 +1,18 @@
+canvas {
+    background: url(../img/bg.jpg) center no-repeat;
+    height: 600px;
+    width: 900px;
+}
+
+body {
+    background: greenyellow;
+    text-align: center;
+    color: red;
+    text-shadow: black 1px 1px 1px;
+}
+
+table,
+td {
+    margin: 25px auto;
+    border: solid black 2px;
+}
