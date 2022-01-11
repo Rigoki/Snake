@@ -19,10 +19,9 @@ window.onload = function() {
         let canvas = document.createElement('canvas');
         canvas.width = canvasWidth;
         canvas.height = canvasHeight;
-        canvas.style.border = "30px solid gray";
+        canvas.style.border = "15px solid gray";
         canvas.style.margin = "25px auto";
         canvas.style.display = "block";
-        canvas.style.backgroundColor = "#ddds"
         document.body.appendChild(canvas);
         ctx = canvas.getContext('2d');
         snakee = new Snake([
@@ -120,7 +119,7 @@ window.onload = function() {
         this.ateApple = false;
         this.draw = function() {
             ctx.save();
-            ctx.fillStyle = "yellow";
+            ctx.fillStyle = "blacks";
             for (let i = 0; i < this.body.length; i++) {
                 drawBlock(ctx, this.body[i]);
             }

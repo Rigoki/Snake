@@ -1,18 +1,27 @@
 canvas {
-    background: url(../img/bg.jpg) center no-repeat;
+    background: #BFB304;
     height: 600px;
     width: 900px;
 }
 
 body {
-    background: greenyellow;
+    background: url(../img/bg2.jpg) center no-repeat;
+    background-color: rebeccapurple;
     text-align: center;
-    color: red;
-    text-shadow: black 1px 1px 1px;
+    color: black;
+    font-size: 2em;
+    text-shadow: rgb(44, 44, 44) 2px 1px 1px;
+    margin: auto;
 }
 
-table,
+table {
+    margin: 15px auto;
+    border: solid gray 5px;
+    background-color: gray;
+}
+
 td {
-    margin: 25px auto;
-    border: solid black 2px;
+    border: solid 5px gray;
+    padding: 10px;
+    background-color: #BFB304;
 }
