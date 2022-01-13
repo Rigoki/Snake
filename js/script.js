@@ -233,15 +233,19 @@ window.onload = function() {
         let key = e.key;
         let newDirection;
         switch (key) {
+            case "Arrowleft":
             case "q":
                 newDirection = "left";
                 break;
+            case "ArrowUp":
             case "z":
                 newDirection = "up";
                 break;
+            case "ArrowRight":
             case "d":
                 newDirection = "right";
                 break;
+            case "ArrowDown":
             case "s":
                 newDirection = "down";
                 break;
